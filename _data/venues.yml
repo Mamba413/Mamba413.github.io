@@ -1,6 +1,13 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"PNAS":
+  url: https://www.pnas.org/
+
+"JASA":
+  url: https://www.tandfonline.com/journals/uasa20
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"JMLR":
+  url: https://www.jmlr.org/
+
+"IJOC":
+  url: https://pubsonline.informs.org/journal/ijoc
+
