@@ -1,16 +1,20 @@
 "PNAS":
   url: https://www.pnas.org/
+  color: "#377eb8"
 
 "JASA":
   url: https://www.tandfonline.com/journals/uasa20
-  color: "#00369f"
+  color: "#a65628"
 
 "JMLR":
   url: https://www.jmlr.org/
+  color: "#ff7f00"
 
 "IJOC":
   url: https://pubsonline.informs.org/journal/ijoc
+  color: "#33a02c"
 
 "arXiv":
   url: https://arxiv.org/
+  color: "#f781bf"
 
