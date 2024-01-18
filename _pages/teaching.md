@@ -12,3 +12,5 @@ Teaching @ LSE
 - LT 2023 – LT 2024: [Foundations of Machine Learning](https://lse-st510.github.io/) (ST510)
 
 Teaching @ SYSU
+
+- Spring 2016: Multivariate Statistical Analysis and Its Application
