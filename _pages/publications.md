@@ -2,7 +2,7 @@
 layout: page
 permalink: /papers/
 title: Papers
-description: publications by years. 
+description: <nobr><em>*</em></nobr> denotes equal contribution.
 nav: true
 nav_order: 2
 ---
