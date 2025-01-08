@@ -9,7 +9,8 @@ nav_order: 6
 
 Teaching @ LSE
 
-- WT 2023 – 2024: [Foundations of Machine Learning](https://lse-st510.github.io/) (ST510)
+- WT 2024 – 2025: [Foundations of Machine Learning](https://github.com/lse-st510/Lectures2025) (ST510), Weeks 7
+- WT 2023 – 2024: [Foundations of Machine Learning](https://github.com/lse-st510/Lectures2024) (ST510)
 - WT 2023 – 2024: Reinforcement Learning (ST455), Weeks 9-10 
 
 TA @ SYSU
