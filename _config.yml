@@ -205,6 +205,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - _news/announcement_*.md
 keep_files:
   - CNAME
   - .nojekyll
