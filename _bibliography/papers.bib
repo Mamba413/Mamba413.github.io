@@ -5,10 +5,11 @@
   title = {Balancing Interference and Correlation in Spatial Experimental Designs: A Causal Graph Cut Approach},
   author = {Jin Zhu<nobr><em>*</em></nobr> and Jingyi Li<nobr><em>*</em></nobr> and Hongyi Zhou and Yinan Lin and Chengchun Shi and Zhenhua Lin},
   booktitle = {Proceedings of the 42th International Conference on Machine Learning},
-  abstract  = {This paper focuses on the design of spatial experiments to optimize the amount of information derived from the experimental data and enhance the accuracy of the resulting causal effect estimator. We propose a surrogate function for the mean squared error (MSE) of the estimator, which facilitates the use of classical graph cut algorithms to learn the optimal design. Our proposal offers three key advances: (1) it accommodates moderate to large spatial interference effects; (2) it adapts to different spatial covariance functions; (3) it is computationally efficient.  Theoretical results and numerical experiments based on synthetic environments and a dispatch simulator that models a city-scale ridesharing market, further validate the effectiveness of our design.},
+  abstract  = {This paper focuses on the design of spatial experiments to optimize the amount of information derived from the experimental data and enhance the accuracy of the resulting causal effect estimator. We propose a surrogate function for the mean squared error (MSE) of the estimator, which facilitates the use of classical graph cut algorithms to learn the optimal design. Our proposal offers three key advances: (1) it accommodates moderate to large spatial interference effects; (2) it adapts to different spatial covariance functions; (3) it is computationally efficient.  Theoretical results and numerical experiments based on synthetic environments and a dispatch simulator that models a city-scale ridesharing market, further validate the effectiveness of our design. A python implementation of our method is available at https://github.com/Mamba413/CausalGraphCut.},
   editor    = {},
   pages     = {},
-  pdf       = {},
+  pdf       = {http://arxiv.org/abs/2505.20130},
+  code      = {https://github.com/Mamba413/CausalGraphCut},
   publisher = {PMLR},
   abbr      = {ICML},
   series    = {Proceedings of Machine Learning Research},
@@ -33,6 +34,16 @@
   year      = {2025}
 }
 
+@article{zhu2025semi,
+  title = {Semi-pessimistic Reinforcement Learning},
+  author = {Jin Zhu and Xin Zhou and Jiaang Yao and Gholamali Aminian and Omar Rivasplata and Simon Little and Lexin Li and Chengchun Shi},
+  journal  = {arXiv preprint arXiv:2505.19002},
+  abbr     = {arXiv},
+  year     = {2025},
+  pdf      = {https://arxiv.org/abs/2505.19002},
+  abstract = {Offline reinforcement learning (RL) aims to learn an optimal policy from pre-collected data. However, it faces challenges of distributional shift, where the learned policy may encounter unseen scenarios not covered in the offline data. Additionally, numerous applications suffer from a scarcity of labeled reward data. Relying on labeled data alone often leads to a narrow state-action distribution, further amplifying the distributional shift, and resulting in suboptimal policy learning. To address these issues, we first recognize that the volume of unlabeled data is typically substantially larger than that of labeled data. We then propose a semi-pessimistic RL method to effectively leverage abundant unlabeled data. Our approach offers several advantages. It considerably simplifies the learning process, as it seeks a lower bound of the reward function, rather than that of the Q-function or state transition function. It is highly flexible, and can be integrated with a range of model-free and model-based RL algorithms. It enjoys the guaranteed improvement when utilizing vast unlabeled data, but requires much less restrictive conditions. We compare our method with a number of alternative solutions, both analytically and numerically, and demonstrate its clear competitiveness. We further illustrate with an application to adaptive deep brain stimulation for Parkinson's disease.}
+}
+
 @article{kai2025robust,
   title = {Robust Reinforcement Learning from Human Feedback for Large Language Models Fine-Tuning},
   author = {Kai Ye<nobr><em>*</em></nobr> and Hongyi Zhou<nobr><em>*</em></nobr> and Jin Zhu<nobr><em>*</em></nobr> and Francesco Quinzan and Chengchung Shi},
@@ -45,7 +56,7 @@
 
 @article{gao2025identification,
   title    = {Identification of Genetic Factors Associated with Corpus Callosum Morphology: Conditional Strong Independence Screening for Non-Euclidean Responses},
-  author   = {Gao, Zhe and Zhu, Jin and Hu, Yue and Pan, Wenliang and Wang, Xueqin},
+  author   = {Zhe Gao and Jin Zhu and Yue Hu and Wenliang Pan and Xueqin Wang},
   journal  = {arXiv preprint arXiv:2503.02245},
   abbr     = {arXiv},
   year     = {2025},
