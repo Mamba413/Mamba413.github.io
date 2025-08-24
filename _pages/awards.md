@@ -19,6 +19,6 @@ nav_order: 6
 
 - Youchu Zhong Specialized Awards (Outstanding Student Award), 2018.
 
-- Outstanding Undergraduates of Sun Yat-Sen University, 2016.
+- Outstanding Undergraduates of Sun Yat-sen University, 2016.
 
 - First-class Scholarship for Outstanding Students of SYSU, 2014 and 2015.
