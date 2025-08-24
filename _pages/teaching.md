@@ -7,6 +7,11 @@ nav: true
 nav_order: 6
 ---
 
+Teaching @ Birmingham
+
+- ST 2025-2026: Statistics
+- ST 2025-2026: Linear Algebra and Linear Programming
+
 Teaching @ LSE
 
 - WT 2024 – 2025: [Foundations of Machine Learning](https://github.com/lse-st510/Lectures2025) (ST510, Seminars in Weeks 1-11 & Lecture in Week 7).
