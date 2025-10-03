@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One first-author paper has been accepted to JASA. :tada: 
+One paper has been accepted to JASA. :tada: 
