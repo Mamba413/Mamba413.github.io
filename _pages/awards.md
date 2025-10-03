@@ -7,6 +7,8 @@ nav: true
 nav_order: 6
 ---
 
+- The 26th Beijing-Tianjin-Hebei Youth Probability and Statistics Academic Symposium "Zhong Jiaqing Outstanding Paper Award"
+
 - [2023 John M. Chambers Statistical Software Award](https://community.amstat.org/jointscsg-section/awards/john-m-chambers), Honorable Mention
 
 - Best Student Paper Awards, the 4th National Statistical Doctoral Forum, China, 2020.
