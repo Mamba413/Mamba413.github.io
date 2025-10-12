@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper has been accepted to JASA. :tada: 
+One paper [Reconstruct Ising Model with Global Optimality via SLIDE](https://arxiv.org/abs/2310.09257) has been accepted to JASA. :tada: 

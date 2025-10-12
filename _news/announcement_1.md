@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper has been accepted to NeurIPS 2025. :sparkles: 
+One paper [AdaDetectGPT: Adaptive Detection of LLM-Generated Text with Statistical Guarantees](https://arxiv.org/abs/2510.01268) has been accepted to NeurIPS 2025. :sparkles: 
