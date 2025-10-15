@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an assistant professor of School of Mathematics at [University of Birmingham](https://www.birmingham.ac.uk/about/college-of-engineering-and-physical-sciences/mathematics). My research focuses on large language models, reinforcement learning and high-dimensional statistics, particularly on developing computationally efficient methods with statistical guarantees. 
+I am an Assistant Professor of School of Mathematics at [University of Birmingham](https://www.birmingham.ac.uk/staff/profiles/maths/zhu-jin.aspx). My research focuses on large language models, reinforcement learning and high-dimensional statistics, particularly on developing computationally efficient methods with statistical guarantees. 
 
 Previously, 
 
