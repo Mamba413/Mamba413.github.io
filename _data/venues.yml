@@ -15,6 +15,10 @@
   url: https://pubsonline.informs.org/journal/ijoc
   color: "#33a02c"
 
+"AOAS":
+  url: https://imstat.org/journals-and-publications/annals-of-applied-statistics/
+  color: "#e41a1c"
+
 "arXiv":
   url: https://arxiv.org/
   color: "#f781bf"
