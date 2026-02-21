@@ -44,6 +44,10 @@
   url: https://nips.cc/
   color: "#fdb462"
 
+"CVPR":
+  url: https://cvpr.thecvf.com/
+  color: "#bebada"
+
 "AISTATS":
   url: https://virtual.aistats.org/
-  color: "#bebada"
+  color: "#80b1d3"
