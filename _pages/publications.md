@@ -2,7 +2,7 @@
 layout: page
 permalink: /papers/
 title: Papers
-description: <sup>*</sup> denotes equal contribution, <nobr><em>#</em></nobr> denotes corresponding authors.
+description: equal contribution (<sup>*</sup>), corresponding authors (<sup>#</sup>)
 nav: true
 nav_order: 2
 ---
