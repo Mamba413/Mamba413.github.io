@@ -7,6 +7,8 @@ nav: true
 nav_order: 6
 ---
 
+- Institute of Mathematical Statistics (IMS) New Researcher Travel Award, 2026.
+
 - The 26th Beijing-Tianjin-Hebei Youth Probability and Statistics Academic Symposium "Zhong Jiaqing Outstanding Paper Award"
 
 - [2023 John M. Chambers Statistical Software Award](https://community.amstat.org/jointscsg-section/awards/john-m-chambers), Honorable Mention
