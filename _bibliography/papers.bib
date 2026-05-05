@@ -1,6 +1,17 @@
 ---
 ---
 
+@article{ma2026sequential,
+  title    = {Sequential Knockoffs for Variable Selection in Reinforcement Learning},
+  author   = {Tao Ma<sup>*</sup> and Jin Zhu<sup>*</sup> and Hengrui Cai and Zhengling Qi and Yunxiao Chen and Chengchun Shi and Eric Laber},
+  journal  = {Journal of the American Statistical Association},
+  abbr     = {JASA},
+  year     = {2026},
+  pdf      = {https://arxiv.org/pdf/2303.14281},
+  abstract = {In real-world applications of reinforcement learning, it is often challenging to obtain a state representation that is parsimonious and satisfies the Markov property without prior knowledge. Consequently, it is common practice to construct a state larger than necessary, e.g., by concatenating measurements over contiguous time points. However, needlessly increasing the dimension of the state may slow learning and obfuscate the learned policy. We introduce the notion of a minimal sufficient state in a Markov decision process (MDP) as the subvector of the original state under which the process remains an MDP and shares the same reward function as the original process. We propose a novel sequential knockoffs (SEEK) algorithm that estimates the minimal sufficient state in a system with high-dimensional complex nonlinear dynamics. In large samples, the proposed method achieves selection consistency. As the method is agnostic to the reinforcement learning algorithm being applied, it benefits downstream tasks such as policy learning. Empirical experiments verify theoretical results and show that the proposed approach outperforms several competing methods regarding variable selection accuracy and the suboptimality gap of the learned policy. A Python implementation of SEEK is provided at https://github.com/Mamba413/seek.}, 
+  code     = {https://github.com/Mamba413/seek},
+}
+
 @article{gong2026kae,
   title = {Kernelized Advantage Estimation: From Nonparametric Statistics to LLM Reasoning},
   author = {Shijin Gong, Kai Ye, Jin Zhu, Xinyu Zhang, Hongyi Zhou, Chengchun Shi},
@@ -53,16 +64,6 @@
   website={https://huggingface.co/spaces/stats-powered-ai/StatDetectLLM},
   pdf = {https://arxiv.org/pdf/2601.06586},
   abstract = {Large language models (LLMs) such as GPT, Claude, Gemini, and Grok have been deeply integrated into our daily life. They now support a wide range of tasks – from dialogue and email drafting to assisting with teaching and coding, serving as search engines, and much more. However, their ability to produce highly human-like text raises serious concerns, including the spread of fake news, the generation of misleading governmental reports, and academic misconduct. To address this practical problem, we train a classifier to determine whether a piece of text is authored by an LLM or a human. Our detector is deployed on an online CPU-based platform https://huggingface.co/spaces/stats-powered-ai/StatDetectLLM, and contains three novelties over existing detectors: (i) it does not rely on auxiliary information, such as watermarks or knowledge of the specific LLM used to generate the text; (ii) it more effectively distinguishes between human- and LLM-authored text; and (iii) it enables statistical inference, which is largely absent in the current literature. Empirically, our classifier achieves higher classification accuracy compared to existing detectors, while maintaining type-I error control, high statistical power, and computational efficiency.},
-}
-
-@article{ma2023sequential,
-  title    = {Sequential Knockoffs for Variable Selection in Reinforcement Learning},
-  author   = {Tao Ma<sup>*</sup> and Jin Zhu<sup>*</sup> and Hengrui Cai and Zhengling Qi and Yunxiao Chen and Chengchun Shi and Eric Laber},
-  journal  = {Journal of the American Statistical Association},
-  abbr     = {JASA},
-  year     = {2026},
-  pdf      = {https://arxiv.org/pdf/2303.14281},
-  abstract = {In real-world applications of reinforcement learning, it is often challenging to obtain a state representation that is parsimonious and satisfies the Markov property without prior knowledge. Consequently, it is common practice to construct a state larger than necessary, e.g., by concatenating measurements over contiguous time points. However, needlessly increasing the dimension of the state may slow learning and obfuscate the learned policy. We introduce the notion of a minimal sufficient state in a Markov decision process (MDP) as the subvector of the original state under which the process remains an MDP and shares the same reward function as the original process. We propose a novel sequential knockoffs (SEEK) algorithm that estimates the minimal sufficient state in a system with high-dimensional complex nonlinear dynamics. In large samples, the proposed method achieves selection consistency. As the method is agnostic to the reinforcement learning algorithm being applied, it benefits downstream tasks such as policy learning. Empirical experiments verify theoretical results and show that the proposed approach outperforms several competing methods regarding variable selection accuracy and the suboptimality gap of the learned policy. A Python implementation of SEEK is provided at https://github.com/Mamba413/seek.}
 }
 
 @article{gao2025identification,
