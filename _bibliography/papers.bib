@@ -1,13 +1,23 @@
 ---
 ---
 
+@article{cen2026learning,
+  title={Learning Perturbations to Extrapolate Your LLM},
+  author={Zetai Cen and Chenfei Gu and Jin Zhu and Ting Li and Yunxiao Chen and Chengchun Shi},
+  journal={arXiv preprint arXiv:2605.13284},
+  abbr     = {arXiv},
+  year={2026},
+  pdf={https://arxiv.org/pdf/2605.13284}, 
+  abstract={Recent advancements in large language models demonstrate that injecting perturbations can substantially enhance extrapolation performance. However, current approaches often rely on discrete perturbations with fixed designs, which limits their flexibility. In this work, we propose a framework where token prefixes are perturbed by a learnable transformation of a continuous latent vector within an embedding space. To overcome the challenge of an intractable marginal likelihood, we derive unbiased estimating equations for model parameters and optimize them via stochastic gradient descent. We establish the statistical properties of the resulting estimator in over-parameterized regimes. Empirical evaluations on both synthetic and real-world datasets demonstrate that our proposal yields significant gains in out-of-domain settings over a range of state-of-the-art baseline methods.},
+}
+
 @article{cen2026perturbation,
   title    = {Perturbation is All You Need for Extrapolating Language Models},
   author   = {Zetai Cen<sup>*</sup> and Jin Zhu<sup>*</sup> and Xinwei Shen and Chengchun Shi},
   journal  = {arXiv preprint arXiv:2605.04344},
   abbr     = {arXiv},
   year     = {2026},
-  pdf      = {https://arxiv.org/abs/2605.04344},
+  pdf      = {https://arxiv.org/pdf/2605.13284},
   abstract = {We introduce a simple yet powerful framework for training large language models. In contrast to the standard autoregressive next-token prediction based on an exact prefix, we propose a perturbation-based procedure that first transforms the prefix into a semantic neighbor and then conditions on this perturbed variant for next-token prediction. This yields a hierarchical model with a pre-post-additive noise structure. Within this framework, we develop a rigorous theory of extrapolability, namely, the capacity of a model class to make reliable predictions for token sequences that lie outside the empirical support of the training corpus. We evaluate the finite-sample performance of the proposed procedure using both synthetic and real-world language data. Results show that the proposed method consistently improves out-of-support prediction while maintaining competitive in-support performance, demonstrating that perturbation offers a practical route to language modeling.}, 
 }
 
@@ -17,7 +27,7 @@
   journal  = {arXiv preprint arXiv:2605.03723},
   abbr     = {arXiv},
   year     = {2026},
-  pdf      = {https://arxiv.org/abs/2605.03723},
+  pdf      = {https://arxiv.org/pdf/2605.03723},
   abstract = {The rise of large language models (LLMs) has created an urgent need to distinguish between human-written and LLM-generated text to ensure authenticity and societal trust. Existing detectors typically provide a binary classification for an entire passage; however, this is insufficient for human--LLM co-authored text, where the objective is to localize specific segments authored by humans or LLMs. To bridge this gap, we propose algorithms to segment text into human- and LLM-authored pieces. Our key observation is that such a segmentation task is conceptually similar to classical change point detection in time-series analysis. Leveraging this analogy, we adapt change point detection to LLM-generated text detection, develop a weighted algorithm and a generalized algorithm to accommodate heterogeneous detection score variability, and establish the minimax optimality of our procedure. Empirically, we demonstrate the strong performance of our approach against a wide range of existing baselines.}, 
 }
 
@@ -38,7 +48,7 @@
   journal = {arXiv preprint arXiv:2604.28005v1},
   abbr    = {arXiv},
   year = {2026}, 
-  pdf = {https://arxiv.org/abs/2604.28005v1},
+  pdf = {https://arxiv.org/pdf/2604.28005v1},
   abstract = {Recent advances in large language models (LLMs) have increasingly relied on reinforcement learning (RL) to improve their reasoning capabilities. Three approaches have been widely adopted: (i) Proximal policy optimization and advantage actor-critic rely on a deep neural network to estimate the value function of the learning policy in order to reduce the variance of the policy gradient. However, estimating and maintaining such a value network incurs substantial computational and memory overhead. (ii) Group relative policy optimization (GRPO) avoids training a value network by approximating the value function using sample averages. However, GRPO samples a large number of reasoning traces per prompt to achieve accurate value function approximation, making it computationally expensive. (iii) REINFORCE-type algorithms sample only a single reasoning trajectory per prompt, which reduces computational cost but suffers from poor sample efficiency. In this work, we focus on a practical, resource-constrained setting in which only a small number of reasoning traces can be sampled per prompt, while low-variance gradient estimation remains essential for high-quality policy learning. To address this challenge, we bring classical nonparametric statistical methods, which are both computationally and statistically efficient, to LLM reasoning. We employ kernel smoothing as a concrete example for value function estimation and the subsequent policy optimization. Numerical and theoretical results demonstrate that our proposal achieves accurate value and gradient estimation, leading to improved policy optimization.}
 }
 
