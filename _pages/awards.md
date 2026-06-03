@@ -7,21 +7,21 @@ nav: true
 nav_order: 6
 ---
 
-- ICML Silver Reviewer Award, 2026.
+- ICML Silver Reviewer Award, 2026
 
-- Institute of Mathematical Statistics (IMS) New Researcher Travel Award, 2026.
+- [Institute of Mathematical Statistics (IMS) New Researcher Travel Award, 2026](https://imstat.org/2026/04/29/recipients-of-the-2026-ims-new-researcher-travel-awards-announced/)
 
 - The 26th Beijing-Tianjin-Hebei Youth Probability and Statistics Academic Symposium "Zhong Jiaqing Outstanding Paper Award"
 
 - [2023 John M. Chambers Statistical Software Award](https://community.amstat.org/jointscsg-section/awards/john-m-chambers), Honorable Mention
 
-- Best Student Paper Awards, the 4th National Statistical Doctoral Forum, China, 2020.
+- Best Student Paper Awards, the 4th National Statistical Doctoral Forum, China, 2020
 
-- National Scholarship, China, 2020.
+- National Scholarship, China, 2020
 
-- Outstanding Graduate Students of Guangdong Province, China, 2019.
+- Outstanding Graduate Students of Guangdong Province, China, 2019
 
-- Best Student Paper Awards, Guangdong Mathematical Society, China, 2019.
+- Best Student Paper Awards, Guangdong Mathematical Society, China, 2019
 
 - Youchu Zhong Specialized Awards (Outstanding Student Award), 2018.
 
