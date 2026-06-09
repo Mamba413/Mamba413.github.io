@@ -7,6 +7,8 @@ nav: true
 nav_order: 6
 ---
 
+- AIRR Gateway project (PI), 2026. “Efficient Approaches on Detecting Generative AI”.
+
 - ICML Silver Reviewer Award, 2026
 
 - [Institute of Mathematical Statistics (IMS) New Researcher Travel Award, 2026](https://imstat.org/2026/04/29/recipients-of-the-2026-ims-new-researcher-travel-awards-announced/)
