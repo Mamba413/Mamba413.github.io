@@ -51,3 +51,7 @@
 "AISTATS":
   url: https://virtual.aistats.org/
   color: "#80b1d3"
+
+"STAI-X":
+  url: https://statsupai.org/STAIX2026/
+  color: "#80b1d3"
