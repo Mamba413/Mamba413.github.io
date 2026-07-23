@@ -1,6 +1,16 @@
 ---
 ---
 
+@article{zhu2026semi,
+  title = {Semi-pessimistic Reinforcement Learning},
+  author = {Jin Zhu and Xin Zhou and Jiaang Yao and Gholamali Aminian and Omar Rivasplata and Simon Little and Lexin Li and Chengchun Shi},
+  journal  = {Journal of the American Statistical Association},
+  abbr     = {JASA},
+  year     = {2026},
+  pdf      = {https://arxiv.org/abs/2505.19002},
+  abstract = {Offline reinforcement learning (RL) aims to learn an optimal policy from pre-collected data. However, it faces challenges of distributional shift, where the learned policy may encounter unseen scenarios not covered in the offline data. Additionally, numerous applications suffer from a scarcity of labeled reward data. Relying on labeled data alone often leads to a narrow state-action distribution, further amplifying the distributional shift, and resulting in suboptimal policy learning. To address these issues, we first recognize that the volume of unlabeled data is typically substantially larger than that of labeled data. We then propose a semi-pessimistic RL method to effectively leverage abundant unlabeled data. Our approach offers several advantages. It considerably simplifies the learning process, as it seeks a lower bound of the reward function, rather than that of the Q-function or state transition function. It is highly flexible, and can be integrated with a range of model-free and model-based RL algorithms. It enjoys the guaranteed improvement when utilizing vast unlabeled data, but requires much less restrictive conditions. We compare our method with a number of alternative solutions, both analytically and numerically, and demonstrate its clear competitiveness. We further illustrate with an application to adaptive deep brain stimulation for Parkinson's disease.}
+}
+
 @article{li2026segmenting,
   title    = {Segmenting Human-LLM Co-authored Text via Change Point Detection},
   author   = {Mengchu Li<sup>*</sup> and Jin Zhu<sup>*</sup> and Jinglai Li and Chengchun Shi},
@@ -191,16 +201,6 @@
   pdf = 	 {https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhou25f/zhou25f.pdf},
   url = 	 {https://proceedings.mlr.press/v267/zhou25f.html},
   abstract = 	 {This paper studies off-policy evaluation (OPE) in reinforcement learning with a focus on behavior policy estimation for importance sampling. Prior work has shown empirically that estimating a history-dependent behavior policy can lead to lower mean squared error (MSE) even when the true behavior policy is Markovian. However, the question of <em>why</em> the use of history should lower MSE remains open. In this paper, we theoretically demystify this paradox by deriving a bias-variance decomposition of the MSE of ordinary importance sampling (IS) estimators, demonstrating that history-dependent behavior policy estimation decreases their asymptotic variances while increasing their finite-sample biases. Additionally, as the estimated behavior policy conditions on a longer history, we show a consistent decrease in variance. We extend these findings to a range of other OPE estimators, including the sequential IS estimator, the doubly robust estimator and the marginalized IS estimator, with the behavior policy estimated either parametrically or non-parametrically.}
-}
-
-@article{zhu2025semi,
-  title = {Semi-pessimistic Reinforcement Learning},
-  author = {Jin Zhu and Xin Zhou and Jiaang Yao and Gholamali Aminian and Omar Rivasplata and Simon Little and Lexin Li and Chengchun Shi},
-  journal  = {arXiv preprint arXiv:2505.19002},
-  abbr     = {arXiv},
-  year     = {2025},
-  pdf      = {https://arxiv.org/abs/2505.19002},
-  abstract = {Offline reinforcement learning (RL) aims to learn an optimal policy from pre-collected data. However, it faces challenges of distributional shift, where the learned policy may encounter unseen scenarios not covered in the offline data. Additionally, numerous applications suffer from a scarcity of labeled reward data. Relying on labeled data alone often leads to a narrow state-action distribution, further amplifying the distributional shift, and resulting in suboptimal policy learning. To address these issues, we first recognize that the volume of unlabeled data is typically substantially larger than that of labeled data. We then propose a semi-pessimistic RL method to effectively leverage abundant unlabeled data. Our approach offers several advantages. It considerably simplifies the learning process, as it seeks a lower bound of the reward function, rather than that of the Q-function or state transition function. It is highly flexible, and can be integrated with a range of model-free and model-based RL algorithms. It enjoys the guaranteed improvement when utilizing vast unlabeled data, but requires much less restrictive conditions. We compare our method with a number of alternative solutions, both analytically and numerically, and demonstrate its clear competitiveness. We further illustrate with an application to adaptive deep brain stimulation for Parkinson's disease.}
 }
 
 @article{kai2025robust,
