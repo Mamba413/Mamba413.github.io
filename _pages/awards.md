@@ -7,6 +7,8 @@ nav: true
 nav_order: 6
 ---
 
+- AIRR Gateway project (PI), 2026. “Efficient AI-Generated Videos Detection”.
+
 - AIRR Gateway project (PI), 2026. “Efficient Approaches on Detecting Generative AI”.
 
 - ICML Silver Reviewer Award, 2026
